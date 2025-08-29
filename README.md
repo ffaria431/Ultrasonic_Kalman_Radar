@@ -1,6 +1,6 @@
 # Kalman-Enhanced Ultrasonic Radar: Arduino Obstacle Detection System  
 
-## 🎯 Objectives  
+## Objectives:
 The primary objective of this project is to design and implement a **low-cost ultrasonic radar system** capable of detecting obstacles in its environment while mitigating measurement noise through **Kalman filtering**. The system aims to:  
 
 - Demonstrate the integration of an ultrasonic sensor with a servo motor for angular scanning.  
@@ -10,7 +10,7 @@ The primary objective of this project is to design and implement a **low-cost ul
 
 ---
 
-## 📖 Project Overview  
+## Project Overview:
 This project models a **miniature radar system** using the Arduino Uno, an HC-SR04 ultrasonic distance sensor, and a micro servo motor. The ultrasonic sensor is mounted on the servo, which sweeps across a defined angular range (20°–160°), emulating a radar scanning motion. At each angular step, distance measurements are acquired, filtered, and plotted in real time.  
 
 A **Kalman filter** is embedded in the microcontroller code to smooth sensor readings by combining predictions with noisy measurements. This filtering process produces more consistent range data compared to raw sensor outputs, thereby enabling more robust obstacle detection.  
@@ -21,7 +21,7 @@ The system is implemented within **Tinkercad Circuits**, enabling students to en
 
 ---
 
-## 🔧 Components  
+## Components:
 The following components are required for implementation:  
 
 - **Arduino Uno R3** – Microcontroller for system control and processing.  
@@ -33,7 +33,7 @@ The following components are required for implementation:
 
 ---
 
-## ⚙️ Working Principle  
+## Working Principle:  
 The system functions by integrating servo-based scanning, ultrasonic measurement, predictive filtering, and visual feedback into a unified obstacle detection platform:  
 
 1. **Servo-based Scanning:** The servo motor rotates the ultrasonic sensor in discrete angular increments between 20° and 160°, emulating the sweep of a radar antenna.  
@@ -44,7 +44,7 @@ The system functions by integrating servo-based scanning, ultrasonic measurement
 
 ---
 
-## 🌍 Applications  
+## Applications:
 This project has direct relevance to several real-world domains:  
 
 - **Automotive systems:** Low-cost parking assistance and blind-spot detection.  
@@ -55,7 +55,7 @@ This project has direct relevance to several real-world domains:
 
 ---
 
-## 🎓 Learning Outcomes  
+## Learning Outcomes: 
 Through the design and implementation of this project, the following outcomes are expected:  
 
 - Gain **practical experience** with ultrasonic sensing and servo-based actuation.  
@@ -66,7 +66,7 @@ Through the design and implementation of this project, the following outcomes ar
 
 ---
 
-## 📂 Repository Structure  
+## Repository Structure: 
 ```bash
 01_ultrasonic_kalman_radar/
 ├── ultrasonic_kalman_radar.ino   # Arduino source code
