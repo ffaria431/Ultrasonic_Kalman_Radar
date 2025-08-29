@@ -24,12 +24,12 @@ The system is implemented within **Tinkercad Circuits**, enabling students to en
 ## Components:
 The following components are required for implementation:  
 
-- **Arduino Uno R3** – Microcontroller for system control and processing.  
-- **HC-SR04 Ultrasonic Sensor** – For measuring obstacle distances.  
-- **SG90 Micro Servo Motor** – To enable angular scanning of the sensor.  
-- **LEDs (optional)** – Status indication and proximity alerts.  
-- **220 Ω resistors** – Current limiting for LEDs.  
-- **Breadboard and jumper wires** – For circuit prototyping.  
+- **Arduino Uno R3** : Microcontroller for system control and processing.  
+- **HC-SR04 Ultrasonic Sensor** : For measuring obstacle distances.  
+- **SG90 Micro Servo Motor** : To enable angular scanning of the sensor.  
+- **LEDs (optional)** : Status indication and proximity alerts.  
+- **220 Ω resistors** : Current limiting for LEDs.  
+- **Breadboard and jumper wires** : For circuit prototyping.  
 
 ---
 
