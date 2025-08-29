@@ -2,10 +2,10 @@
 
 **Objectives:**
 The primary objective of this project is to design and implement a low-cost ultrasonic radar system capable of detecting obstacles in its environment while mitigating measurement noise through Kalman filtering. The system aims to:
-      • Demonstrate the integration of an ultrasonic sensor with a servo motor for angular scanning.
-    	•	Apply a state estimation algorithm (1D Kalman filter) to enhance the accuracy and reliability of distance measurements.
-    	•	Provide a hands-on platform for students to understand predictive filtering, sensor fusion, and real-time data visualization.
-    	•	Illustrate potential applications of radar-like sensing in robotics, automotive safety, and environmental monitoring.
+      	- Demonstrate the integration of an ultrasonic sensor with a servo motor for angular scanning.
+    	- Apply a state estimation algorithm (1D Kalman filter) to enhance the accuracy and reliability of distance measurements.
+    	- Provide a hands-on platform for students to understand predictive filtering, sensor fusion, and real-time data visualization.
+    	- Illustrate potential applications of radar-like sensing in robotics, automotive safety, and environmental monitoring.
 
 **Project Overview:**
 This project models a miniature radar system using the Arduino Uno, an HC-SR04 ultrasonic distance sensor, and a micro servo motor. The ultrasonic sensor is mounted on the servo, which sweeps across a defined angular range (20°–160°), emulating a radar scanning motion. At each angular step, distance measurements are acquired, filtered, and plotted in real time.
